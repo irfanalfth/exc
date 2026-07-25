@@ -1,0 +1,12 @@
+# Ignore everything by default.
+*
+
+# Keep this file.
+!.gitignore
+
+# Allow only obfuscated output if this folder itself is used as a delivery repo.
+!dist/
+!dist/**
+
+# Do not publish placeholder.
+dist/.gitkeep
